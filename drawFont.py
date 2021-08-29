@@ -5,8 +5,8 @@ import numpy as np
 import regex as re
 
 multiplier = 4
-fontJapanese = ImageFont.truetype(r'C:/Users/Zeta/AppData/Local/Microsoft/Windows/Fonts/NotoSerifJP-SemiBold.otf', 52)
-testNumber = ImageFont.truetype(r'C:/Users/Zeta/AppData/Local/Microsoft/Windows/Fonts/NotoSerifJP-SemiBold.otf', 5)
+fontJapanese = ImageFont.truetype(r'C:/Fonts/NotoSerifJP-SemiBold.otf', 52)
+testNumber = ImageFont.truetype(r'C:/Fonts/NotoSerifJP-SemiBold.otf', 5)
 
 textColor = (0,0,0,255)
 #textColor = (255,255,0,127)
