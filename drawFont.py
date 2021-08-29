@@ -5,8 +5,8 @@ import numpy as np
 import regex as re
 
 multiplier = 4
-fontJapanese = ImageFont.truetype(r'C:/Fonts/NotoSerifJP-SemiBold.otf', 52)
-testNumber = ImageFont.truetype(r'C:/Fonts/NotoSerifJP-SemiBold.otf', 5)
+fontJapanese = ImageFont.truetype(os.getenv('LOCALAPPDATA') + r'/Microsoft/Windows/Fonts/NotoSerifJP-SemiBold.otf', 52)
+testNumber = ImageFont.truetype(os.getenv('LOCALAPPDATA') + r'/Microsoft/Windows/Fonts/NotoSerifJP-SemiBold.otf', 5)
 
 textColor = (0,0,0,255)
 #textColor = (255,255,0,127)
@@ -73,6 +73,6 @@ with open(r'D:/code/feFonts/fontSystem.txt', 'r', encoding="utf-8-sig") as jpSys
 			draw1.rectangle((x,y,x+4,y+4), testBox)'''
 			draw1.text((allX,allY), fontCharacter, font=fontJapanese, fill=textColor)
 
-img0.save(os.getcwd() + '/tex0.png')
-img1.save(os.getcwd() + '/tex1.png')
+img0.save(os.getcwd() + r'/tex0.png')
+img1.save(os.getcwd() + r'/tex1.png')
 sys.exit('Done')
