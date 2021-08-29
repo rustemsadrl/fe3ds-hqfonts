@@ -2,6 +2,7 @@
 
 ## What this does
 Tired of blurry fonts while playing Fire Emblem on Citra? Well I've got something for you.
+
 ![Example](https://raw.githubusercontent.com/rustemsadrl/fe3ds-hqfonts/main/example.png)
 
 ## How to
